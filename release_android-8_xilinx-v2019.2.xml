@@ -2,10 +2,10 @@
 <manifest>
 
   <remote name="aosp" fetch="https://android.googlesource.com" review=""/>
-  <remote name="mentor-github" fetch="git://github.com/MentorEmbedded/" review=""/>
-  <remote name="xilinx-github" fetch="git://github.com/Xilinx/" review=""/>
+  <remote name="mentor-github" fetch="https://github.com/MentorEmbedded/" review=""/>
+  <remote name="xilinx-github" fetch="https://github.com/Xilinx/" review=""/>
   <default remote="aosp" revision="refs/tags/android-8.1.0_r23" sync-j="4" />
-  <remote  name="github" fetch="git://github.com/" />
+  <remote  name="github" fetch="https://github.com/" />
 
   <!-- Xilinx MPSoC specific repositories -->
   <project path="device/xilinx" name="mpsoc-android_device_xilinx" remote="mentor-github" revision="zynqmp-android_8" />
